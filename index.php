@@ -12,9 +12,8 @@
 header("Expires: Wed, 19 Nov 2008 19:19:19 GMT");
 header("Cache-Control: no-store, no-cache, must-revalidate");
 header("Content-Type: text/html; charset=utf-8");
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-//error_reporting(0);
+//error_reporting(E_ALL);
+error_reporting(0);
 if (!ini_get('zlib.output_compression') && function_exists('ob_gzhandler')) ob_start('ob_gzhandler');
 set_error_handler('sxd_error_handler');
 register_shutdown_function('sxd_shutdown');
