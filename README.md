@@ -3,6 +3,14 @@ Old mysql_* replaced to mysqli_ functions.
 
 Was changed index.php. You can replace only this file without replacing all files.
 
+Requirements:
+
+Set chmod 777 for ‘backup’ directory.
+
+Set chmod 666 for files ‘cfg.php’ and ‘ses.php’.
+
+
+
 If using not default mysql port (not 3306) to make testing for verification correctly of work.
 
 
