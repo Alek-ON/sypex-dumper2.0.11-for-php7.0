@@ -1,7 +1,7 @@
 Sypex Dumper 2.0.11 functioning on PHP 7.0 with functions of Mysqli extension. 
 Old mysql_* replaced to mysqli_ functions. 
 
-Changed index.php. You can replace only this file. Without replacing all files.
+Was changed index.php. You can replace only this file. Without replacing all files.
 
 
 If Sypex Dumper does not work correctly, in index.php do replace:
